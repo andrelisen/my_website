@@ -1,96 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andrelise - meu site</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1></h1>
-    </header>
-    <main>
-      <img
-        src="images/me.png"
-        alt="Foto de Andrelise"
-        style="
-          display: block;
-          margin: 0 auto;
-          width: 300px;
-          height: 300px;
-          object-fit: cover;
-          border-radius: 50%;
-        "
-      />
-      <p>Olá, eu sou a Andrelise.</p>
-      <p>
-        Eu sou Analista DevOps. Me formei na Universidade Federal do Pampa -
-        UNIPAMPA em 2021.
-      </p>
-      <p>
-        Gosto muito de aprender coisas novas e também participar de novos
-        desafios.
-      </p>
-      <p>
-        Pretendo com esse site ir compartilhando alguns estudos que eu estou
-        tendo e mostrando para quem interessar ou para o meu eu do futuro 😄
-      </p>
-      <p>
-        Ah, esse site não será muito lindo, é apenas para eu ir praticando e
-        tendo como objetivo compartilhar minha caminhada no mundo de TI.
-      </p>
-    </main>
-    <header>
-      <h1>Minhas certificações atuais</h1>
-      <div
-        style="
-          display: flex;
-          justify-content: center;
-          gap: 10px;
-          flex-wrap: wrap;
-        "
-      >
-        <img
-          src="images/cloud_engineer.png"
-          alt="Certificação Cloud Engineer Google"
-          style="
-            display: block;
-            margin: 0 auto;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-          "
-        />
-        <img
-          src="images/cloud_practitioner.png"
-          alt="Certificação Cloud Practitioner AWS"
-          style="
-            display: block;
-            margin: 0 auto;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-          "
-        />
-        <img
-          src="images/solutions_architect.png"
-          alt="Certificação Solutions Architect AWS"
-          style="
-            display: block;
-            margin: 0 auto;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-          "
-        />
-      </div>
-    </header>
-    <footer>
-      <p>&copy; 2026 Andrelise. Todos os direitos reservados.</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrelise | DevOps Engineer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <span class="logo-box">A.N</span>
+    <span class="logo-text">PROFILE</span>
+  </div>
+
+  <nav>
+    <ul>
+      <li class="active">Home</li>
+      <li>Sobre</li>
+      <li>Projetos</li>
+      <li>Skills</li>
+      <li>Contato</li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="subtitle">DevOps Engineer</p>
+
+    <h1>
+      Olá, eu sou <br>
+      <span>Andrelise</span>
+    </h1>
+
+    <p class="description">
+      Especialista em AWS, automação e infraestrutura como código.
+      Construindo sistemas escaláveis e confiáveis.
+    </p>
+
+    <div class="buttons">
+      <button class="primary">Ver Projetos</button>
+      <button class="secondary">Contato</button>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="images/me.png" alt="Profile">
+  </div>
+</section>
+
+<section class="skills">
+  <h2>Stack Principal</h2>
+
+  <div class="skills-grid">
+    <div class="card">AWS</div>
+    <div class="card">Docker</div>
+    <div class="card">Kubernetes</div>
+    <div class="card">Terraform</div>
+    <div class="card">CI/CD</div>
+    <div class="card">Python</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Andrelise - DevOps Engineer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
