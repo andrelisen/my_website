@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -57,6 +57,11 @@ nav li {
   cursor: pointer;
   position: relative;
   color: #cbd5f5;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
 }
 
 nav li::after {
@@ -145,7 +150,7 @@ button {
 .hero-image img {
   width: 420px;
   border-radius: 20px;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
   transition: 0.4s;
 }
 
@@ -175,13 +180,17 @@ button {
   padding: 30px;
   border-radius: 16px;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   transition: 0.3s;
 }
 
 .card:hover {
   transform: translateY(-8px);
-  background: linear-gradient(135deg, rgba(79,70,229,0.2), rgba(34,197,94,0.2));
+  background: linear-gradient(
+    135deg,
+    rgba(79, 70, 229, 0.2),
+    rgba(34, 197, 94, 0.2)
+  );
 }
 
 /* FOOTER */
