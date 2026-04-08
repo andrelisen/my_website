@@ -223,13 +223,11 @@ a.secondary:hover {
 /* PROJECTS */
 .projects {
   padding: 100px 80px;
-  text-align: center;
+  text-align: left
 }
 
 .projects h2 {
   margin-bottom: 50px;
-  padding-left: 50px;
-  text-align: left;
 }
 
 .projects-grid {
