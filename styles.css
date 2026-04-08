@@ -146,6 +146,24 @@ button {
   color: var(--secondary);
 }
 
+a.secondary {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid #334155;
+  color: #cbd5f5;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+a.secondary:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+
 /* IMAGE */
 .hero-image img {
   width: 420px;
