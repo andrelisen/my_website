@@ -81,6 +81,7 @@ nav li:hover::after {
 
 nav li.contact-link::after {
   display: none;
+  text-decoration: none;
 }
 
 /* HERO */
