@@ -58,11 +58,11 @@ nav li {
   position: relative;
   color: #cbd5f5;
 }
-
+/* 
 nav a {
   text-decoration: none;
   color: inherit;
-}
+} */
 
 nav li::after {
   content: "";
