@@ -79,9 +79,14 @@ nav li:hover::after {
   width: 100%;
 }
 
-nav li.contact-link::after {
-  display: none;
+nav li.contact-link a,
+nav li.contact-link a:visited {
   text-decoration: none;
+  color: #FFFFFF; /* Coloque a cor que combina com o seu menu */
+}
+
+nav li.contact-link a:hover {
+  color: #CCCCCC; /* Uma cor um pouco diferente ao passar o mouse */
 }
 
 /* HERO */
