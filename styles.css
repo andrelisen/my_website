@@ -79,6 +79,10 @@ nav li:hover::after {
   width: 100%;
 }
 
+nav li.contact-link::after {
+  display: none;
+}
+
 /* HERO */
 .hero {
   display: flex;
@@ -137,12 +141,12 @@ button {
 
 .secondary {
   background: transparent;
-  border: 1px solid #334155;
+  border: none;
   color: #cbd5f5;
+  padding: 14px 28px;
 }
 
 .secondary:hover {
-  border-color: var(--secondary);
   color: var(--secondary);
 }
 
@@ -160,7 +164,6 @@ a.secondary {
 }
 
 a.secondary:hover {
-  border-color: var(--secondary);
   color: var(--secondary);
 }
 
