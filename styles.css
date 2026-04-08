@@ -229,7 +229,7 @@ a.secondary:hover {
 .projects h2 {
   margin-bottom: 50px;
   padding-left: 50px;
-  font-size: 28px;
+  text-align: left;
 }
 
 .projects-grid {
