@@ -82,7 +82,7 @@ nav li:hover::after {
 nav li.contact-link a,
 nav li.contact-link a:visited {
   text-decoration: none;
-  color: #FFFFFF; /* Coloque a cor que combina com o seu menu */
+  /* color: #FFFFFF; /* Coloque a cor que combina com o seu menu */
 }
 
 nav li.contact-link a:hover {
